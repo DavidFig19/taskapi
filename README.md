@@ -17,20 +17,21 @@ Esta es una API RESTful creada para gestionar tareas con operaciones CRUD, auten
 
 ## 📂 Estructura del proyecto
 
+```bash
 src/
 │── config/
-│ └── db.js
+│   └── db.js
 │── controllers/
-│ ├── authController.js
-│ └── taskController.js
+│   ├── authController.js
+│   └── taskController.js
 │── middlewares/
-│ └── authMiddleware.js
+│   └── authMiddleware.js
 │── models/
-│ ├── Task.js
-│ └── User.js
+│   ├── Task.js
+│   └── User.js
 │── routes/
-│ ├── authRoutes.js
-│ └── taskRoutes.js
+│   ├── authRoutes.js
+│   └── taskRoutes.js
 └── index.js
 
 
@@ -148,5 +149,3 @@ Registrar usuario
 Iniciar sesión
 
 Copiar token
-
-Consultar rutas protegidas
