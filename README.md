@@ -73,7 +73,9 @@ MONGO_URI=mongodb://127.0.0.1:27017/tareasdb
 
 ## Ejecutar aplicacion
 
+```
 npm run dev
+```
 
 ## Si todo esta bien veras
 
@@ -89,10 +91,13 @@ Registro
 POST /api/auth/register
 
 Body:
+
+```
 {
   "username": "david",
   "password": "123456"
 }
+```
 
 Login
 
@@ -122,12 +127,13 @@ Crear una tarea
 POST /api/tasks
 
 Body:
-
+```
 {
   "title": "Comprar comida",
   "description": "Leche, pan y huevos",
   "status": "pendiente"
 }
+```
 
 Actualizar una tarea
 
