@@ -94,7 +94,7 @@ Body:
 
 ```
 {
-  "username": "david",
+  "email": "test@test.com",
   "password": "123456"
 }
 ```
