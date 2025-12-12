@@ -33,7 +33,7 @@ src/
 │   ├── authRoutes.js
 │   └── taskRoutes.js
 └── index.js
-
+```
 
 ---
 
@@ -51,18 +51,21 @@ Clonar el repositorio:
 
 ```bash
 git https://github.com/DavidFig19/taskapi
-
+```
 
 
 ## Instlar dependencias
-
+```
 npm install
+```
 
 ## Crear archivo .env en la raíz del proyecto:
 
+```
 PORT=3000
 MONGO_URI=TU_CONEXION_A_MONGODB
 JWT_SECRET=CLAVE_SECRETA
+```
 
 ## Ejemplo para MongoDB local:
 
